@@ -7,6 +7,15 @@ html,
 body {
   height: 100%;
 }
+#about {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 50px 0 20px;
+    background-attachment: fixed;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -14,7 +23,7 @@ body {
   margin-top: 30px;
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .bg-gray {
   background-color: #f5f5f5;
@@ -529,6 +538,10 @@ aside.cta-quote span.quote {
 .about-carousel .item .caption ul.social li a:hover,
 .about-carousel .item .caption ul.social li a:focus {
   color: white;
+}
+
+.caption h3 {
+	font-size: 15px;
 }
 .about-carousel .owl-controls {
   margin-top: 0;
@@ -1164,5 +1177,4 @@ table.dates{
 
 table.dates td{
 	padding: 10px 20px;
-	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
