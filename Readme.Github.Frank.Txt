@@ -11,4 +11,8 @@ Created "S3Site_v1.1", commited to master, Synced
 
 
 
- 
+NEXT UP
+Change main text to:  A team of energetic and dedicated multirotor FPV racers.  Race with us!
+Resize the pilots
+
+
