@@ -28,6 +28,15 @@
     <link href="assets/css/plugins/animate.css" rel="stylesheet" type="text/css">
     <!-- Vitality Theme CSS -->
     <link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="assets/css/global.css" rel="stylesheet" type="text/css">
+    <!-- for pretty people cards -->
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/css/materialize.css">
+      
+          
     <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -36,9 +45,12 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target="#navbar-collapse" data-offset="1" style="position: relative;overflow-x: hidden;"> 
+  <!-- more stuff for people cards -->
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded" id="navbar">
-        <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded" id="navbar" style="display: inline; padding-left: 10px; padding-right: 10px;">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -81,7 +93,6 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
         <!-- /.container -->
     </nav>
     <!-- Instructions: Set your background image using the URL below. -->
@@ -125,7 +136,7 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item">
-						  <iframe width="560" height="315" src="https://www.youtube.com/embed/VGttxOnFyWc" frameborder="0" allowfullscreen></iframe>
+						  <iframe width="560" height="400" src="https://www.youtube.com/embed/VGttxOnFyWc" frameborder="0" allowfullscreen></iframe>
 						</div>					
 						<div class="item active">
 							<iframe width="100%" height="400" src="https://player.vimeo.com/video/142749178" frameborder="0" allowfullscreen></iframe>
@@ -137,7 +148,7 @@
 						  <iframe width="100%" height="400" src="https://player.vimeo.com/video/143495703" frameborder="0" allowfullscreen></iframe>
 						</div>					
 						<div class="item">
-						  <iframe width="560" height="315" src="https://www.youtube.com/embed/NYT01sWCdos" frameborder="0" allowfullscreen></iframe>
+						  <iframe width="560" height="400" src="https://www.youtube.com/embed/NYT01sWCdos" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
 					<!-- Controls -->
@@ -207,158 +218,224 @@
         </div>
     </section>
 	<section id="team">
-        <div class="container wow fadeIn">
+        <div class="container wow fadeIn" style="width: 90% !important;">
             <div class="row">
                 <div class="col-lg-12 text-center" style="margin-bottom: 60px;">
                     <h2>Safety Third Racing Team</h2>
                     <hr class="colored">
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/ToastaMahogey.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-							<h3>Toasta Mahogey</h3>
-							<p><small>NAFPV 2015, MakerFaire NYC 2015</small></p>
-							<hr class="colored"/>
-							<ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-								</li>
-							</ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/NickleyW.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>Nickley W</h3>
-							<p><small>NAFPV 2015, MakerFaire NYC 2015</small></p>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/3.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>Srinath</h3>							
-							<p><small>MakerFaire NYC 2015</small></p>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/tlmfpv_360.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>TheLedMan</h3>
-							<p><small>Drone Nationals 2015,NAFPV 2015, MakerFaire NYC 2015,F3 Atlanta 2015</small></p>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/flyingRamen.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>TheFlyingRamen</h3>
-							<p><small>MakerFaire NYC 2015</small></p>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/pixelrotor.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>PixelRotor</h3>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2 col-sm-offset-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/3.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>Methadrone</h3>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/3.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>Race</h3>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/3.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>DoingtheDoings</h3>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="col-sm-2" style="text-align: center;">
-					<div class="item">
-                        <img src="assets/img/people/3.jpg" class="img-responsive" alt=""/>
-                        <div class="caption">
-                            <h3>MacBeth</h3>
-							<p><small>MakerFaire NYC 2015</small></p>
-                            <hr class="colored"/>
-                            <ul class="list-inline social">
-								<li>
-									<a href="#"><i class="fa fa-youtube fa-fw"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
+				        </div>
+				    </div>
+				    
+				    <div class="row">
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/ToastaMahogey.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          Toasta Mahogey
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">Toasta Mahogey<i class="material-icons right">close</i></span>
+    					        <p>NAFPV 2015, MakerFaire NYC 2015</p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/NickleyW.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          Nickley W
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">Nickley W<i class="material-icons right">close</i></span>
+    					        <p>NAFPV 2015, MakerFaire NYC 2015</p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/Srinath.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          Srinath
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">Srinath<i class="material-icons right">close</i></span>
+    					        <p>MakerFaire NYC 2015</p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/tlmfpv_360.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          TheLedMan
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">TheLedMan<i class="material-icons right">close</i></span>
+    					        <p>Drone Nationals 2015,NAFPV 2015, MakerFaire NYC 2015,F3 Atlanta 2015</p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/flyingRamen.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          TheFlyingRamen
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">TheFlyingRamen<i class="material-icons right">close</i></span>
+    					        <p>MakerFaire NYC 2015</p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/pixelrotor.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          PixelRotor
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">PixelRotor<i class="material-icons right">close</i></span>
+    					        <p></p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/3.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          Methadrone
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">Methadrone<i class="material-icons right">close</i></span>
+    					        <p></p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/race.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          Race
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">Race<i class="material-icons right">close</i></span>
+    					        <p></p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/3.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          DoingtheDoings
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">DoingtheDoings<i class="material-icons right">close</i></span>
+    					        <p></p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
+				        
+				        <div class="col-sm-4 col-sm-offset-4">
+  					      <div class="card">
+    					      <div class="card-image waves-effect waves-block waves-light" align="center">
+    					        <img src="assets/img/people/3.jpg" class="activator" alt=""/>
+    					      </div>
+    					      <div class="card-content">
+    					        <span class="card-title activator grey-text text-darken-3" style="vertical-align: top !important;">
+    					          MacBeth
+    					          <i class="material-icons right" style="margin-left: 0px !important; vertical-align: middle; line-height: 2 !important;">
+    					            more_vert
+    					          </i>
+    					        </span>
+    					      </div>
+    					      <div class="card-reveal">
+    					        <span class="card-title grey-text text-darken-4">MacBeth<i class="material-icons right">close</i></span>
+    					        <p>MakerFaire NYC 2015</p>
+    					        <p><a href="#">Youtube <i class="fa fa-youtube fa-fw"></i></a></p>
+    					      </div>
+  					      </div>
+				        </div>
 			</div>
 		</div>
 	</section>
