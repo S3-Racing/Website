@@ -31,17 +31,6 @@
         $('.navbar-toggle:visible').click();
     });
 
-    // Magnific Popup jQuery Lightbox Gallery Settings
-    $('.gallery-link').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        },
-        image: {
-            titleSrc: 'title'
-        }
-    });
-
     // Scrollspy: Highlights the navigation menu items while scrolling.
     $('body').scrollspy({
         target: '.navbar-fixed-top',
