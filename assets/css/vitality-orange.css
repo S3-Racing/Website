@@ -869,10 +869,59 @@ aside.cta-quote span.quote {
   font-size: 12px;
 }
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 500px) {
+  #portfoliolist .portfolio {
+    width: 48%;
+    margin: 1%;
+  }
+  #logoimage {
+    max-width: 230px !important;
+    padding-top: 8px !important;
+  }
+  header {
+    padding: 0px !important;
+    display: none !important;
+  }
+  #mobileheader {
+    display: inherit !important;
+    padding-top: 100px !important;
+  }
+  .events {
+    padding-top: 25px !important;
+  }
+}
 @media only screen and (max-width: 767px) {
   #portfoliolist .portfolio {
     width: 48%;
     margin: 1%;
+  }
+  header {
+    padding: 0px !important;
+    display: none !important;
+  }
+  #mobileheader {
+    display: inherit !important;
+    padding-top: 75px;
+  }
+  .events {
+    padding-top: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #headername {
+    font-size: 2.8em !important;
+    left: 30% !important;
+  }
+  #headersubtext {
+    font-size: 1.4em !important;
+    left: 33% !important;
+    top: 250px !important;
+  }
+  #headerborder{
+    top: 220px !important;
+    padding-left: 45% !important;
+    left: 33% !important;
   }
 }
 .pricing {

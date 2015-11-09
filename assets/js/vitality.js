@@ -42,14 +42,6 @@
         }
     });
 
-    // Formstone Background - Video Background Settings
-    $("header.video").background({
-        source: {
-			poster: "",
-            mp4: "assets/mp4/DroneChase.mp4"
-        }
-    });
-
     // Scrollspy: Highlights the navigation menu items while scrolling.
     $('body').scrollspy({
         target: '.navbar-fixed-top',
