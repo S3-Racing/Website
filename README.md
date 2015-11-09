@@ -1,4 +1,4 @@
-# Website
+# S3 Racing Team Official Website
 
-http://slacker87.koding.io/
+http://s3fpv.com
 
