@@ -185,6 +185,7 @@ hr.colored {
 }
 .navbar-fixed-top {
   margin-bottom: 0;
+  background-color: rgba( 	34, 34, 34, 0.8);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -211,7 +212,7 @@ hr.colored {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: #222222;
+  background-color: rgba( 	34, 34, 34, 0.8);
 }
 .navbar-default,
 .navbar-inverse {
@@ -896,7 +897,11 @@ aside.cta-quote span.quote {
     padding-top: 25px !important;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 760px) {
+  #logoimage {
+    max-width: 230px !important;
+    padding-top: 4px !important;
+  }
   #portfoliolist .portfolio {
     width: 48%;
     margin: 1%;
@@ -912,9 +917,43 @@ aside.cta-quote span.quote {
   .events {
     padding-top: 25px !important;
   }
+  #headername {
+    font-size: 2.0em !important;
+    left: 26% !important;
+  }
+  #headersubtext {
+    font-size: 1.2em !important;
+    left: 26% !important;
+    top: 350px !important;
+  }
+  #headerborder{
+    top: 320px !important;
+    padding-left: 45% !important;
+    left: 33% !important;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
+  #headername {
+    font-size: 2.2em !important;
+    left: 22% !important;
+  }
+  #headersubtext {
+    font-size: 1.2em !important;
+    left: 20% !important;
+    top: 350px !important;
+  }
+  #headerborder{
+    top: 320px !important;
+    padding-left: 45% !important;
+    left: 33% !important;
+  }
+  #logoimage {
+    max-width: 170px !important;
+    padding-top: 4px !important;
+  }
+}
+@media only screen and (max-width: 1350px) {
   #headername {
     font-size: 2.8em !important;
     left: 30% !important;
@@ -1047,12 +1086,6 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
 }
 footer.footer {
-  color: rgba(255, 255, 255, 0.7);
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   padding: 50px 0 20px;
 }
 footer.footer a {
