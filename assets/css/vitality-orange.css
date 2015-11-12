@@ -897,7 +897,7 @@ aside.cta-quote span.quote {
     padding-top: 25px !important;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 501px) and  (max-width: 700px) {
   #logoimage {
     max-width: 230px !important;
     padding-top: 4px !important;
@@ -933,30 +933,66 @@ aside.cta-quote span.quote {
   }
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (min-width: 700px) and (max-width: 950px) {
   #headername {
     font-size: 2.2em !important;
+    left: 24% !important;
+  }
+  #headersubtext {
+    font-size: 1.2em !important;
+    left: 29% !important;
+    top: 250px !important;
+  }
+  #headerborder{
+    top: 220px !important;
+    padding-left: 45% !important;
+    left: 28% !important;
+  }
+  #logoimage {
+    max-width: 200px !important;
+    padding-top: 4px !important;
+  }
+  header {
+    height: 100% !important;
+    width: 100% !important;
+    padding: 0px !important;
+  }
+  .navbar-right {
+    font-size: 11px;
+  }
+}
+
+
+@media only screen and (min-width: 810px) and (max-width: 950px) {
+  .navbar-right {
+    font-size: 13px !important;
+  }
+}
+  
+@media only screen and  (min-width: 951px) and (max-width: 1150px) {
+  #headername {
+    font-size: 3em !important;
     left: 22% !important;
   }
   #headersubtext {
     font-size: 1.2em !important;
-    left: 20% !important;
-    top: 350px !important;
+    left: 32% !important;
+    top: 270px !important;
   }
   #headerborder{
-    top: 320px !important;
+    top: 230px !important;
     padding-left: 45% !important;
-    left: 33% !important;
+    left: 28% !important;
   }
   #logoimage {
-    max-width: 170px !important;
+    max-width: 250px !important;
     padding-top: 4px !important;
   }
 }
-@media only screen and (max-width: 1350px) {
+@media only screen and (min-width: 1151px) and  (max-width: 1350px) {
   #headername {
-    font-size: 2.8em !important;
-    left: 30% !important;
+    font-size: 3.8em !important;
+    left: 21% !important;
   }
   #headersubtext {
     font-size: 1.4em !important;
@@ -966,7 +1002,7 @@ aside.cta-quote span.quote {
   #headerborder{
     top: 220px !important;
     padding-left: 45% !important;
-    left: 33% !important;
+    left: 28% !important;
   }
 }
 .pricing {
