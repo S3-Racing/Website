@@ -141,7 +141,7 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-						  <iframe width="560" height="400" src="https://www.youtube.com/embed/VGttxOnFyWc" frameborder="0" allowfullscreen></iframe>
+						  <iframe id="test" width="560" height="400" src="https://www.youtube.com/embed/VGttxOnFyWc" frameborder="0" allowfullscreen></iframe>
 						</div>					
 						<div class="item">
 							<iframe width="100%" height="400" src="https://player.vimeo.com/video/142749178" frameborder="0" allowfullscreen></iframe>
@@ -516,10 +516,24 @@
     <script src="assets/js/plugins/cbpAnimatedHeader.js"></script>
     <script src="assets/js/plugins/jquery.mixitup.js"></script>
     <script src="assets/js/plugins/wow/wow.min.js"></script>
+    <script src="assets/js/plugins/iframetracker.js"></script>
     <!-- Vitality Theme Scripts -->
     <script src="assets/js/vitality.js"></script>
     <!-- Google analytics -->
     <script src="assets/js/analytics.js"></script>
+    <script>
+        jQuery(document).ready(function($){
+            $('#carousel.slide').carousel({
+                interval: 4000,
+                pause: "false"
+            });
+            $('.item iframe').iframeTracker({
+                blurCallback: function(){
+                    $("#carousel").carousel('pause');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
