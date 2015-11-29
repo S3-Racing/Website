@@ -77,4 +77,116 @@
 #chromefix {
   /* fix an issue where negative z-indexs in chrome cause the page to freak out */
    -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0); 
+   position: absolute !important;
+   z-index: 0;
+   width: 100%;
+   height: 100%
+}
+
+#events {
+    background: #000 url('/assets/img/real_cf.png') repeat scroll 0% 0%;
+    border-top: 4px solid #111;
+    border-bottom: 4px solid #111;
+    background-attachment: fixed !important;
+}
+
+#videos {
+    background-image: url('/assets/img/bg-about.jpg');
+    background-attachment: fixed !important;
+}
+
+#resources {
+    background: #000 url('/assets/img/real_cf.png') repeat scroll 0% 0%;
+    border-top: 4px solid #111;
+    border-bottom: 4px solid #111;
+    background-attachment: fixed !important;
+}
+
+#about {
+    background-image: url('/assets/img/bg-about.jpg');
+    width: 100vw;
+}
+
+#team {
+    background: #000 url('/assets/img/real_cf.png') repeat scroll 0% 0%;
+    border-top: 4px solid #111;
+    border-bottom: 4px solid #111;
+    background-attachment: fixed !important;
+}
+
+#swag {
+    background-image: url('/assets/img/bg-about.jpg');
+    background-attachment: fixed !important;
+}
+
+#contact {
+    background: #000 url('/assets/img/real_cf.png') repeat scroll 0% 0%;
+    border-top: 4px solid #111;
+    border-bottom: 4px solid #111;
+    background-attachment: fixed !important;
+    padding: 50px 0 20px;
+}
+#contact a {
+  color: rgba(255, 255, 255, 0.7);
+}
+#contact  a:hover {
+  color: white;
+}
+#contact  p {
+  font-size: 22px;
+}
+#contact  .contact-details {
+  margin: 75px 0;
+}
+#contact  .social {
+  margin-bottom: 75px;
+}
+#contact  .copyright p.small {
+  font-size: 14px;
+}
+@media (min-width: 1025px) {
+#contact  {
+    background-attachment: fixed;
+  }
+}
+
+#headername {
+    z-index: 5 !important;
+    position: absolute !important;
+    top: 150px;
+    margin-left: auto !important;
+    left: 20%;
+    color: rgba(250, 250, 250, 0.9) !important;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+#headerborder {
+    z-index: 5 !important;
+    position: absolute !important;
+    top: 250px;
+    padding-left: 55% !important;
+    left: 25%;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+    border-color: rgba(242,111,33, 0.9);
+}
+
+#headersubtext {
+    z-index: 5 !important;
+    position: absolute !important;
+    top: 290px;
+    margin-left: auto !important;
+    left: 30%;
+    color: rgba(250, 250, 250, 0.9) !important;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+#navbar {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 35px;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
 }
